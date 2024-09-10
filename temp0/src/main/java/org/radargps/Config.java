@@ -1,4 +1,4 @@
-package org.radargps.springbootrabbitmq.tmp1;
+package org.radargps;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;

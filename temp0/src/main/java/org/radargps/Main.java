@@ -1,4 +1,4 @@
-package org.radargps.springbootrabbitmq;
+package org.radargps;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
@@ -6,10 +6,8 @@ import org.springframework.scheduling.annotation.EnableScheduling;
 
 @SpringBootApplication
 @EnableScheduling
-public class SpringBootRabbitmqApplication {
-
-	public static void main(String[] args) {
-		SpringApplication.run(SpringBootRabbitmqApplication.class, args);
-	}
-
+public class Main {
+    public static void main(String[] args) {
+        var context = SpringApplication.run(Main.class, args);
+    }
 }

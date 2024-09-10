@@ -11,7 +11,8 @@
 	<groupId>org.radargps</groupId>
 	<artifactId>spring-boot-rabbitmq</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>spring-boot-rabbitmq</name>
+    <packaging>pom</packaging>
+    <name>spring-boot-rabbitmq</name>
 	<description>spring-boot-rabbitmq</description>
 	<url/>
 	<licenses>
@@ -20,7 +21,11 @@
 	<developers>
 		<developer/>
 	</developers>
-	<scm>
+    <modules>
+        <module>temp1</module>
+        <module>temp0</module>
+    </modules>
+    <scm>
 		<connection/>
 		<developerConnection/>
 		<tag/>

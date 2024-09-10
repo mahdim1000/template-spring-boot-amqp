@@ -1,4 +1,4 @@
-package org.radargps.springbootrabbitmq.tmp1;
+package org.radargps;
 
 import org.springframework.amqp.core.Queue;
 import org.springframework.amqp.rabbit.core.RabbitTemplate;
